@@ -1,1 +1,4 @@
-# Police-Complaint-Management-System
+The Police Complaint Management System is a web based application. This application provides facility for registering new complaints, recording criminal details, show criminal details, search criminal details online. There are four types of users in our system. 1st one is head of the police station. He is a police who registers newly joined polices to this system. 2nd one is allotted for head of the
+department. And the 3rd one is allotted for complaint registrant who registers new complaints from the client. And the final one is allotted for police who solves the complaint  and stores the details of the criminal.  All users can see the details of the criminals who are in the particular station.
+
+In present manual system the total process of criminal report generation is not so fast and friendly for the officials. To solve this kind of problem we have proposed for better and automated system i.e. Police Complaint Management System (PCMS).
