@@ -1,0 +1,296 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: sans-serif;
+	background-color: #ffffff;
+	overflow-x: hidden;
+}
+
+.navbar{
+	background-color:#fff;
+	overflow: hidden;
+	height: 74px;
+	box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.57);
+	/*  -webkit-box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 2  0px 30px -10px rgba(0,0,0,0.57);*/
+}
+.navbar{
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	color: #000;
+	text-decoration: none;
+	font-size: 18px;
+
+}
+
+
+.navbar .open-slide a i{
+	font-size: 25px;
+}
+
+.company-name{
+	height: 100%;
+	margin-left: 20px;
+	
+	color: white;
+}
+.company-name #admin{
+	padding-left: 12px;
+	letter-spacing: 2px;
+}
+
+#help{
+	color: white;
+}
+
+.side-nav{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top:74px;
+	left: 0;
+	background-color: black;
+	overflow-x: hidden;
+	padding-top: 40px;
+	transition: 0.2s;
+
+
+}
+
+.side-nav a{
+	padding: 10px 10px 10px 30px;
+	text-decoration: none;
+	font-size: 17px;
+	color: #ccc;
+	display: block;
+	transition: 0.3s;
+
+
+}
+.side-nav a i{
+	font-size: 15px;
+}
+.side-nav{
+	color:white;
+}
+
+.side-nav .btn-close{
+	position: absolute;
+	top: 0;
+	right: 22px;
+	font-size: 36px;
+	margin-left: 50px;
+
+}
+.mydrop{
+	background-color: black; 
+	border:none;
+}
+.mydrop{
+	color: black;
+	background-color:white ;
+}
+
+
+#main{
+	margin-top: 74px;
+	transition: margin-left 0.5s;
+	padding: 20px;
+	overflow: hidden;
+	width: 100%;
+
+
+}
+#girls{
+	text-align: center;
+	color: #2f3030;
+}
+
+#boys{
+/*	margin-top: 100px;
+*/	text-align: center;
+	color: #2f3030;
+}
+
+
+
+.col{
+	width: 50%;
+	height: 50%;
+	background-color: #c97373;
+}
+
+.dropdown-menu{
+	background-color: #6537C5; 
+	border:none;
+}
+.dropdown-menu {
+	color: #fff;
+	background-color: #6537C5;
+}
+
+.panel {
+  border: 0
+  width: 220px;
+height: 220px;
+border-radius: 10px; }
+  .panel-default {
+  background: #fff;
+  border: 1px solid  #ff4e00;
+  box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.57);
+  color: #444444; }
+
+.panel-body input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+  color: #777; }
+  .easypiechart-panel {
+  text-align: center;
+  padding: 1px 0;
+  margin-bottom: 20px; }
+  .custom{
+  	height: 10px;
+  }
+  .main{
+  	margin-left: 110px;
+  }
+  #text-assign{
+  	margin-top: 35px;
+  }
+
+
+.blue{
+	background-color: #fff;
+		border: 2px solid #fcb603;
+	color: #000;
+}
+
+.bttn {
+  /* display:block; */
+  display: inline;
+  margin-left: 500px;
+  margin-top: 10px;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+	background-color: #fff;
+	text-decoration: none;
+  border: 2px solid #fcb603;
+	cursor: pointer;
+}
+
+.btn:focus{
+	outline: none;
+}
+.gradient{
+	border: none;
+background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)}
+.gradient:hover{
+	-webkit-box-shadow: 0px 3px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 3px 40px -10px rgba(0,0,0,0.57);
+}
+.box{
+	text-decoration: none;
+	width: 80px;
+	height:40px;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 5px;
+	background-color: #ff4e00;
+}
+
+.button{
+	display: block;
+	width: 170px;
+	height:40px;
+	cursor: pointer;
+	outline: none;
+	background-color: #fff;
+	border: 3px solid #ff4e00;
+	color: #000;
+	/*align-items: center;*/
+}
+
+.button:focus{
+outline: none;
+}
+
+.button:hover{
+	background-color: #ff4e00;
+	color: #fff;
+	-webkit-box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 2	0px 30px -10px rgba(0,0,0,0.57);
+}
+.bend-small
+{
+	border-radius: 15px;
+	}
+
+
+.wrap-table100 {
+  width: 1170px;
+}
+.table100-head th{
+  font-family: OpenSans-Regular;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+.column1 {
+  width: 70px;
+}
+
+.column2 {
+  width: 70px;
+}
+
+.column3 {
+  width: 65px;
+}
+
+.column4 {
+  width:140px;
+  text-align:center;
+  align-items: center;
+}
+
+.column5 {
+  width: 170px;
+text-align: left;}
+
+.column6 {
+  width: 222px;
+text-align: left;
+}
+
+  @media (max-width: 767px) {
+}
+
+.main{
+margin-left: 0;
+}
+.panel{
+	margin-bottom: 40px;
+}
+
+}
+
+.search
+{
+	border-radius:30px; 
+	margin-bottom:20px;
+	width:350px;height:40px;
+}
+.mr-auto
+{
+	vertical-align: middle;
+	padding-left: 20px;
+}
